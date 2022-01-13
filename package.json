@@ -1,0 +1,47 @@
+{
+  "name": "gatsby-starter-forty-v2",
+  "description": "Gatsby Starter - Forty V2",
+  "version": "1.0.0",
+  "author": "Hunter Chang",
+  "dependencies": {
+    "acorn": "^8.7.0",
+    "acorn-import-assertions": "^1.8.0",
+    "babel-eslint": "^10.1.0",
+    "gatsby": "^4.5.2",
+    "gatsby-plugin-manifest": "^4.5.1",
+    "gatsby-plugin-offline": "^5.5.1",
+    "gatsby-plugin-react-helmet": "^5.5.0",
+    "gatsby-plugin-sass": "^5.5.0",
+    "gatsby-plugin-utils": "^2.5.0",
+    "immer": "^9.0.12",
+    "node-sass": "^7.0.1",
+    "react": "^16.12.0",
+    "react-dev-utils": "^12.0.0",
+    "react-dom": "^16.12.0",
+    "react-helmet": "^5.2.1",
+    "sass": "^1.48.0",
+    "sass-loader": "^12.4.0",
+    "typescript": "^4.5.4",
+    "uuid": "^8.3.2",
+    "webpack": "^5.66.0",
+    "ws": "^7.4.6"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}
